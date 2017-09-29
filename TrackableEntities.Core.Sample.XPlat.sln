@@ -1,0 +1,28 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackableEntities.Core.Sample.XPlat.WebApi", "TrackableEntities.Core.Sample.XPlat.WebApi\TrackableEntities.Core.Sample.XPlat.WebApi.csproj", "{CA341201-455C-4A57-91B7-D7A131313D6F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E7E84673-11BC-4204-B047-7008991D4338}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackableEntities.Core.Sample.XPlat.Entities.WebApi", "TrackableEntities.Core.Sample.XPlat.Entities.WebApi\TrackableEntities.Core.Sample.XPlat.Entities.WebApi.csproj", "{9152C7FD-EC30-4C1F-87F7-86E7A338EDD5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA341201-455C-4A57-91B7-D7A131313D6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA341201-455C-4A57-91B7-D7A131313D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA341201-455C-4A57-91B7-D7A131313D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA341201-455C-4A57-91B7-D7A131313D6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9152C7FD-EC30-4C1F-87F7-86E7A338EDD5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9152C7FD-EC30-4C1F-87F7-86E7A338EDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9152C7FD-EC30-4C1F-87F7-86E7A338EDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9152C7FD-EC30-4C1F-87F7-86E7A338EDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
