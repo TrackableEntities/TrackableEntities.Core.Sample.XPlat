@@ -10,6 +10,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackableEntities.Core.Sample.XPlat.Entities.WebApi", "TrackableEntities.Core.Sample.XPlat.Entities.WebApi\TrackableEntities.Core.Sample.XPlat.Entities.WebApi.csproj", "{9152C7FD-EC30-4C1F-87F7-86E7A338EDD5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackableEntities.Core.Sample.XPlat.Entities.Client", "TrackableEntities.Core.Sample.XPlat.Entities.Client\TrackableEntities.Core.Sample.XPlat.Entities.Client.csproj", "{78AF7DC4-AA06-441C-98BB-AFF724C36A75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrackableEntities.Core.Sample.XPlat.ConsoleClient", "TrackableEntities.Core.Sample.XPlat.ConsoleClient\TrackableEntities.Core.Sample.XPlat.ConsoleClient.csproj", "{7397EE87-E6BD-463F-9977-26A4E69CEEC9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{9152C7FD-EC30-4C1F-87F7-86E7A338EDD5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9152C7FD-EC30-4C1F-87F7-86E7A338EDD5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9152C7FD-EC30-4C1F-87F7-86E7A338EDD5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AF7DC4-AA06-441C-98BB-AFF724C36A75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AF7DC4-AA06-441C-98BB-AFF724C36A75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AF7DC4-AA06-441C-98BB-AFF724C36A75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AF7DC4-AA06-441C-98BB-AFF724C36A75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7397EE87-E6BD-463F-9977-26A4E69CEEC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7397EE87-E6BD-463F-9977-26A4E69CEEC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7397EE87-E6BD-463F-9977-26A4E69CEEC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7397EE87-E6BD-463F-9977-26A4E69CEEC9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
