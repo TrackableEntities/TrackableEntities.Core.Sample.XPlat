@@ -87,12 +87,7 @@ Cross-platform sample for Trackable Entities with ASP.NET Core and Entity Framew
     ```csharp
     public class NorthwindSlimContext : DbContext
     {
-		public NorthwindSlimContext(DbContextOptions<NorthwindSlimContext> options) : base(options) { }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        {
-            optionsBuilder.UseSqlite("Data Source=northwindslim.db");
-        }
+	public NorthwindSlimContext(DbContextOptions<NorthwindSlimContext> options) : base(options) { }
 
         public DbSet<Category> Categories { get; set; }
         public DbSet<Customer> Customers { get; set; }
